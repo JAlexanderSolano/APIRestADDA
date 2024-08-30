@@ -1,0 +1,9 @@
+C:\Users\alex9\Documents\PruebaAdda\APIRestAda\APIRestAda\obj\Debug\net7.0\APIRestAda.csproj.AssemblyReference.cache
+C:\Users\alex9\Documents\PruebaAdda\APIRestAda\APIRestAda\obj\Debug\net7.0\APIRestAda.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\alex9\Documents\PruebaAdda\APIRestAda\APIRestAda\obj\Debug\net7.0\APIRestAda.AssemblyInfoInputs.cache
+C:\Users\alex9\Documents\PruebaAdda\APIRestAda\APIRestAda\obj\Debug\net7.0\APIRestAda.AssemblyInfo.cs
+C:\Users\alex9\Documents\PruebaAdda\APIRestAda\APIRestAda\obj\Debug\net7.0\APIRestAda.csproj.CoreCompileInputs.cache
+C:\Users\alex9\Documents\PruebaAdda\APIRestAda\APIRestAda\obj\Debug\net7.0\APIRestAda.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\alex9\Documents\PruebaAdda\APIRestAda\APIRestAda\obj\Debug\net7.0\APIRestAda.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\alex9\Documents\PruebaAdda\APIRestAda\APIRestAda\obj\Debug\net7.0\APIRestAda.RazorAssemblyInfo.cache
+C:\Users\alex9\Documents\PruebaAdda\APIRestAda\APIRestAda\obj\Debug\net7.0\APIRestAda.RazorAssemblyInfo.cs

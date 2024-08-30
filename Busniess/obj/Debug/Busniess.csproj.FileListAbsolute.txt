@@ -1,0 +1,13 @@
+C:\Users\alex9\Documents\PruebaAdda\APIRestAda\Busniess\bin\Debug\Busniess.dll
+C:\Users\alex9\Documents\PruebaAdda\APIRestAda\Busniess\bin\Debug\Busniess.pdb
+C:\Users\alex9\Documents\PruebaAdda\APIRestAda\Busniess\bin\Debug\Data.dll
+C:\Users\alex9\Documents\PruebaAdda\APIRestAda\Busniess\bin\Debug\Entities.dll
+C:\Users\alex9\Documents\PruebaAdda\APIRestAda\Busniess\bin\Debug\System.Data.SqlClient.dll
+C:\Users\alex9\Documents\PruebaAdda\APIRestAda\Busniess\bin\Debug\Data.pdb
+C:\Users\alex9\Documents\PruebaAdda\APIRestAda\Busniess\bin\Debug\Entities.pdb
+C:\Users\alex9\Documents\PruebaAdda\APIRestAda\Busniess\bin\Debug\System.Data.SqlClient.xml
+C:\Users\alex9\Documents\PruebaAdda\APIRestAda\Busniess\obj\Debug\Busniess.csproj.AssemblyReference.cache
+C:\Users\alex9\Documents\PruebaAdda\APIRestAda\Busniess\obj\Debug\Busniess.csproj.CoreCompileInputs.cache
+C:\Users\alex9\Documents\PruebaAdda\APIRestAda\Busniess\obj\Debug\Busniess.csproj.CopyComplete
+C:\Users\alex9\Documents\PruebaAdda\APIRestAda\Busniess\obj\Debug\Busniess.dll
+C:\Users\alex9\Documents\PruebaAdda\APIRestAda\Busniess\obj\Debug\Busniess.pdb

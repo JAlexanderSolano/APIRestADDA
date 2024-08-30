@@ -1,0 +1,142 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\alex9\\Documents\\PruebaAdda\\APIRestAda\\APIRestAda\\APIRestAda.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\alex9\\Documents\\PruebaAdda\\APIRestAda\\APIRestAda\\APIRestAda.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\alex9\\Documents\\PruebaAdda\\APIRestAda\\APIRestAda\\APIRestAda.csproj",
+        "projectName": "APIRestAda",
+        "projectPath": "C:\\Users\\alex9\\Documents\\PruebaAdda\\APIRestAda\\APIRestAda\\APIRestAda.csproj",
+        "packagesPath": "C:\\Users\\alex9\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\alex9\\Documents\\PruebaAdda\\APIRestAda\\APIRestAda\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\alex9\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "C:\\Users\\alex9\\Documents\\PruebaAdda\\APIRestAda\\Busniess\\Busniess.csproj": {
+                "projectPath": "C:\\Users\\alex9\\Documents\\PruebaAdda\\APIRestAda\\Busniess\\Busniess.csproj"
+              },
+              "C:\\Users\\alex9\\Documents\\PruebaAdda\\APIRestAda\\Data\\Data.csproj": {
+                "projectPath": "C:\\Users\\alex9\\Documents\\PruebaAdda\\APIRestAda\\Data\\Data.csproj"
+              },
+              "C:\\Users\\alex9\\Documents\\PruebaAdda\\APIRestAda\\Entities\\Entities.csproj": {
+                "projectPath": "C:\\Users\\alex9\\Documents\\PruebaAdda\\APIRestAda\\Entities\\Entities.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.6.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\alex9\\Documents\\PruebaAdda\\APIRestAda\\Busniess\\Busniess.csproj": {
+      "restore": {
+        "projectUniqueName": "C:\\Users\\alex9\\Documents\\PruebaAdda\\APIRestAda\\Busniess\\Busniess.csproj",
+        "projectName": "Busniess",
+        "projectPath": "C:\\Users\\alex9\\Documents\\PruebaAdda\\APIRestAda\\Busniess\\Busniess.csproj",
+        "frameworks": {
+          "net48": {
+            "projectReferences": {
+              "C:\\Users\\alex9\\Documents\\PruebaAdda\\APIRestAda\\Data\\Data.csproj": {
+                "projectPath": "C:\\Users\\alex9\\Documents\\PruebaAdda\\APIRestAda\\Data\\Data.csproj"
+              },
+              "C:\\Users\\alex9\\Documents\\PruebaAdda\\APIRestAda\\Entities\\Entities.csproj": {
+                "projectPath": "C:\\Users\\alex9\\Documents\\PruebaAdda\\APIRestAda\\Entities\\Entities.csproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "net48": {}
+      }
+    },
+    "C:\\Users\\alex9\\Documents\\PruebaAdda\\APIRestAda\\Data\\Data.csproj": {
+      "restore": {
+        "projectUniqueName": "C:\\Users\\alex9\\Documents\\PruebaAdda\\APIRestAda\\Data\\Data.csproj",
+        "projectName": "Data",
+        "projectPath": "C:\\Users\\alex9\\Documents\\PruebaAdda\\APIRestAda\\Data\\Data.csproj",
+        "frameworks": {
+          "net48": {
+            "projectReferences": {
+              "C:\\Users\\alex9\\Documents\\PruebaAdda\\APIRestAda\\Entities\\Entities.csproj": {
+                "projectPath": "C:\\Users\\alex9\\Documents\\PruebaAdda\\APIRestAda\\Entities\\Entities.csproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "net48": {}
+      }
+    },
+    "C:\\Users\\alex9\\Documents\\PruebaAdda\\APIRestAda\\Entities\\Entities.csproj": {
+      "restore": {
+        "projectUniqueName": "C:\\Users\\alex9\\Documents\\PruebaAdda\\APIRestAda\\Entities\\Entities.csproj",
+        "projectName": "Entities",
+        "projectPath": "C:\\Users\\alex9\\Documents\\PruebaAdda\\APIRestAda\\Entities\\Entities.csproj",
+        "frameworks": {
+          "net48": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "net48": {}
+      }
+    }
+  }
+}
