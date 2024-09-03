@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>APIRestAda</name>
+    </assembly>
+    <members>
+        <member name="M:APIRestAda.Controllers.CompanyController.GetPorId(System.Int32)">
+            <summary>
+            Obtener registro por id
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:APIRestAda.Controllers.CompanyController.Actualizar(System.Int32,APIRestAda.ModelEntry.ModelEntryCompany)">
+            <summary>
+            Actualizar registro por Id
+            </summary>
+            <param name="id"></param>
+            <param name="value"></param>
+            <returns></returns>
+        </member>
+        <member name="M:APIRestAda.Controllers.CompanyController.Eliminar(System.Int32)">
+            <summary>
+            Eliminar registro por id
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:APIRestAda.Controllers.PrincipalController.Post(APIRestAda.ModelEntry.ModelEntryDatos)">
+            <summary>
+            Metodo para guardar compañia app y demas
+            </summary>
+            <param name="datos"></param>
+        </member>
+    </members>
+</doc>

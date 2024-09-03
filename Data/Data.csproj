@@ -46,6 +46,7 @@
   <ItemGroup>
     <Compile Include="Actualizar.cs" />
     <Compile Include="Conexion.cs" />
+    <Compile Include="Consultar.cs" />
     <Compile Include="Eliminar.cs" />
     <Compile Include="Guardar.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

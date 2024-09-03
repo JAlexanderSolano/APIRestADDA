@@ -9,6 +9,6 @@ namespace Entities.Interfaces
 {
     public interface IRepositoryGuardar
     {
-        DataTable GuardarDatos();
+        int GuardarDatos(string codigo_company, string name_company, string description_company, string version, string version_description, string version_company_description, string app_code, string app_name, string app_description);
     }
 }

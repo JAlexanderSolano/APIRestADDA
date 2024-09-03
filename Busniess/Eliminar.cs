@@ -9,11 +9,13 @@ using System.Threading.Tasks;
 
 namespace Busniess
 {
-    public class Eliminar:IRepositoryEliminar
+    public class Eliminar : IRepositoryEliminar
     {
-        public DataTable EliminarDatos()
+        public int EliminarDatos(int id)
         {
-            return null;
+            Data.Eliminar _eliminar = new Data.Eliminar();
+            int result = _eliminar.EliminarDatos(id);
+            return result;
         }
 
     }

@@ -9,6 +9,6 @@ namespace Entities.Interfaces
 {
     public interface IRepositoryEliminar
     {
-        DataTable EliminarDatos();
+        int EliminarDatos(int id);
     }
 }

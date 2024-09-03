@@ -15,14 +15,16 @@ builder.Services.AddCors();
 builder.Services.AddTransient<Entities.Interfaces.IRepositoryGuardar, Busniess.Guardar>();
 builder.Services.AddTransient<Entities.Interfaces.IRepositoryActualizar, Busniess.Actualizar>();
 builder.Services.AddTransient<Entities.Interfaces.IRepositoryEliminar, Busniess.Eliminar>();
+builder.Services.AddTransient<Entities.Interfaces.IRepositoryConsultar, Busniess.Consultar>();
 
-//builder.Services.AddSwaggerGen(c =>
-//{
-//    c.SwaggerDoc("v1", new OpenApiInfo { Title = "SwaggerAPIADDA", Version = "v1" });
-//    var xmlFile = $"{Assembly.GetExecutingAssembly().GetName().Name}.xml";
-//    var xmlPath = Path.Combine(AppContext.BaseDirectory, xmlFile);
-//    c.IncludeXmlComments(xmlPath);
-//});
+
+builder.Services.AddSwaggerGen(c =>
+{
+    c.SwaggerDoc("v1", new OpenApiInfo { Title = "SwaggerAPIADDA", Version = "v1" });
+    var xmlFile = $"{Assembly.GetExecutingAssembly().GetName().Name}.xml";
+    var xmlPath = Path.Combine(AppContext.BaseDirectory, xmlFile);
+    c.IncludeXmlComments(xmlPath);
+});
 
 builder.Services.AddControllers();
 
@@ -47,7 +49,7 @@ app.MapRazorPages();
 
 app.MapControllers();
 
-//app.UseSwagger();
+app.UseSwagger();
 
 app.UseCors(_cors =>
 {
@@ -56,10 +58,10 @@ app.UseCors(_cors =>
     _cors.AllowAnyHeader();
 });
 
-//app.UseSwaggerUI(c =>
-//{
-//    c.SwaggerEndpoint("/swagger/v1/swagger.json", "APIAdda V1");
-//});
+app.UseSwaggerUI(c =>
+{
+    c.SwaggerEndpoint("/swagger/v1/swagger.json", "APIAdda V1");
+});
 
 var host = configuration["Settings:ConecctionDB"];
 if (host != null)

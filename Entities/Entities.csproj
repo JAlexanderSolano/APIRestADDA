@@ -44,7 +44,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="companyResult.cs" />
     <Compile Include="Interfaces\IRepositoryActualizar.cs" />
+    <Compile Include="Interfaces\IRepositoryConsultar.cs" />
     <Compile Include="Interfaces\IRepositoryEliminar.cs" />
     <Compile Include="Interfaces\IRepositoryGuardar.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

@@ -45,6 +45,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Actualizar.cs" />
+    <Compile Include="Consultar.cs" />
     <Compile Include="Eliminar.cs" />
     <Compile Include="Guardar.cs" />
     <Compile Include="InstanciaConexion.cs" />
